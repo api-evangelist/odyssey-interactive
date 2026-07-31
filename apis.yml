@@ -1,8 +1,30 @@
 aid: odyssey-interactive
 name: Odyssey Interactive
-description: Odyssey Interactive is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Odyssey Interactive is an independent game development studio focused on
+  building free-to-play, cross-platform, competitive titles set in bright,
+  hopeful, anime-inspired IP. The studio is best known for Omega Strikers, a
+  free-to-play competitive arena game, and its mission is to "ignite the spark
+  of competitiveness that lives within everyone" by creating community-driven
+  games with longevity. Odyssey Interactive was surfaced as a portfolio company
+  of a16z and added to the API Evangelist network. As of this enrichment pass
+  the studio publishes no public developer API, API documentation, or developer
+  portal — its public surface is its marketing site, a Verified Creators
+  program, downloadable game asset kits, and a Zendesk-hosted player support
+  center. This profile captures the studio's identity and verified public links.
 url: https://raw.githubusercontent.com/api-evangelist/odyssey-interactive/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/5f0ce7910aa5bf68e7ce8ccb/t/6449aa54c2be8e01e6f20ac0/1682549332624/odyssey-logo-new.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Development
+- Esports
+- Entertainment
+- Free-to-Play
 apis: []
+common:
+- type: DomainSecurity
+  url: security/odyssey-interactive-domain-security.yml
+- type: Website
+  url: https://www.odysseyinteractive.gg
+- type: Support
+  url: https://odysseyinteractive.zendesk.com/hc/en-us
+- type: Blog
+  url: https://www.odysseyinteractive.gg/blog/welcome-to-odyssey
+- type: TermsOfService
+  url: https://www.odysseyinteractive.gg/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.odysseyinteractive.gg/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
