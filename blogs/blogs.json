@@ -2,6 +2,13 @@
   "repo": "odyssey-interactive",
   "feeds": [
     {
+      "source": "https://www.odysseyinteractive.gg/blog/welcome-to-odyssey",
+      "feed_url": "https://www.odysseyinteractive.gg/blog/welcome-to-odyssey",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://odysseyinteractive.zendesk.com/hc/en-us",
       "feed_url": "https://odysseyinteractive.zendesk.com/hc/en-us",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
